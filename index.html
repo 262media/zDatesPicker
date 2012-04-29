@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+    <title>zCalendar</title>
+    <link rel="stylesheet" href="static/reset.css">
+    <link rel="stylesheet" href="static/datespicker.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="dates-picker" id="dates-picker">
+            <div id="calendar" class="calendar">
+                <div class="cal-header" id="cal-header">
+                    <div class="cal-status" id="cal-status">
+                        <a href="javascript:void(0);" class="cal-control-up cal-controls"><i></i></a>
+                        <a href="javascript:void(0);" class="cal-control-down cal-controls"><i></i></a>
+            
+                        <strong class="cal_visible_month" id="cal_visible_month">Декабрь 2012</strong>
+                    </div>
+                    <ul class="cal-day-labels">
+                        <li>Пн</li>
+                        <li>Вт</li>
+                        <li>Ср</li>
+                        <li>Чт</li>
+                        <li>Пт</li>
+                        <li>Сб</li>
+                        <li>Вс</li>
+                    </ul>
+                </div>
+                <div class="cal_datelist_holder" id="cal_datelist_holder"><!-- Inserted by JavaScript --></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="static/zepto.js"></script>
+    <script src="static/zepto.onpress.js"></script>
+    <script src="static/zepto.pubsub.js"></script>
+    
+    <script src="static/ocalendar.js"></script>
+    <script src="static/utils.js"></script>
+    <script src="static/datespicker.js"></script>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
