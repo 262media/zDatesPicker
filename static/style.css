@@ -37,20 +37,14 @@ a:hover {
     color: #aa0000;
 }
 
-/* Colors for form validity */
-input:valid, textarea:valid {  }
-input:invalid, textarea:invalid { background-color: #f0dddd; }
-
 /* =============================================================================
    Primary styles
    Author: 
    ========================================================================== */
 
 #main {
-   width: 300px;
-   margin: 100px auto;
-   padding: 40px 20px;
-
+   width: 320px;
+   margin: 10px auto;
 }
 
 
